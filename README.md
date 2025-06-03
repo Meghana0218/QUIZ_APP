@@ -33,14 +33,16 @@ Built with **HTML**, **CSS**, and **JavaScript**, this app lets users:
 
 ## 🖼️ Preview
 
-![Screenshot](screenshot.png)  
-_(*You can upload a screenshot in your GitHub repo and link it here as `screenshot.png`)*
+![Screenshot](![screenshot png](https://github.com/user-attachments/assets/b308ce5b-7e74-4fe7-b1cd-a06406a83dc7)
+
+)  
+
 
 ---
 
 ## 📦 How to Use
 
-1. Clone the repository or [Download ZIP](https://github.com/your-username/quiz-app/archive/refs/heads/main.zip)
+1. Clone the repository or [Download ZIP](https://github.com/Meghana0218/QUIZ_APP/archive/refs/heads/main.zip)
 2. Open `index.html` in your browser
 3. Customize settings and start quizzing!
 
@@ -48,7 +50,7 @@ _(*You can upload a screenshot in your GitHub repo and link it here as `screensh
 
 ## 🌐 Live Demo
 
-👉 [Click here to try the app online](https://yourusername.github.io/quiz-app/)
+👉 [Click here to try the app online](https://Meghana0218.github.io/QUIZ_APP/)
 
 ---
 
@@ -64,4 +66,4 @@ This project is licensed under the [MIT License](LICENSE)
 
 ---
 
-### 👩‍💻 Made with 💖 by [Meghana Banki]
+### 👩‍💻 Made with 💖 by Meghana Banki
