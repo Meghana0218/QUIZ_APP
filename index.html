@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Custom Quiz App</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz App</h1>
+
+    <div id="settings">
+      <label for="topic">Choose a topic:</label>
+      <select id="topic">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+      </select>
+
+      <label for="customTopic">Or enter a custom topic:</label>
+      <input type="text" id="customTopic" placeholder="E.g. MyTopic"/>
+
+      <label for="numQuestions">Number of Questions:</label>
+      <input type="number" id="numQuestions" min="1" max="10" value="2"/>
+
+      <label for="timerInput">Time Limit (in seconds):</label>
+      <input type="number" id="timerInput" placeholder="Enter time limit (e.g. 60)"/>
+
+      <button id="startBtn">Start Quiz</button>
+    </div>
+
+    <div id="quiz-box" class="hidden">
+      <div id="timer"></div>
+      <div id="question"></div>
+      <div id="options"></div>
+      <label for="notes">Your Notes:</label>
+      <textarea id="notes" placeholder="Add your thoughts here..."></textarea>
+      <button id="nextBtn">Next Question</button>
+    </div>
+
+    <div id="score-box" class="hidden"></div>
+  </div>
+
+  <img src="https://media.tenor.com/NdYyD37DqhoAAAAi/anime-girl.gif" style="position:fixed;bottom:10px;right:10px;width:100px;height:auto;transform:rotate(10deg);animation:rotate 5s linear infinite;"/>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
